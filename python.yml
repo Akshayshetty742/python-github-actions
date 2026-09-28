@@ -22,11 +22,11 @@ jobs:
       - name: Install Pylint
         run: pip install pylint
 
-      - name: Run Python program
+      - name: Run Python
         run: python x.py
 
       - name: Run Pylint
         run: pylint x.py
 
-      - name: Run PyUnit tests
+      - name: Run PyUnit
         run: python -m unittest test_x.py
